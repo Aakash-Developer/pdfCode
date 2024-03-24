@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 5px;
+}
+
+.pepar-body {
+  max-width: 1024px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px -3px black;
+  padding: 15px;
+}
+.pepar-header {
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+}
+.top-header-1 {
+  width: fit-content;
+}
+.top-header-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-header-2 > h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.top-header-2 > p {
+  margin-top: 5px;
+}
+.school-logo {
+  height: 91px;
+}
+
+.bottom-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-header .bottom-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.bottom-header .bottom-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.bottom-header .bottom-2 > p {
+  text-align: start;
+}
+
+.qustions {
+  margin-top: 25px;
+}
+
+.qustion-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0px 15px 0px;
+}
+
+img.checkBox {
+  height: 20px;
+}
+
+.qustion {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.optionList {
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+.optionList > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

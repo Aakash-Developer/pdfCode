@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        padding: 5px;
+      }
+
+      .pepar-body {
+        max-width: 1024px;
+        margin: auto;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px -3px black;
+        padding: 15px;
+      }
+      .pepar-header {
+        border: 1px solid lightgray;
+        padding: 20px;
+        border-radius: 5px;
+      }
+
+      .top-header {
+        display: flex;
+        align-items: center;
+      }
+      .top-header-1 {
+        width: fit-content;
+      }
+      .top-header-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .top-header-2 > h1 {
+        font-size: 2.5rem;
+        font-weight: 900;
+      }
+      .top-header-2 > p {
+        margin-top: 5px;
+      }
+      .school-logo {
+        height: 91px;
+      }
+
+      .bottom-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .bottom-header .bottom-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+      }
+      .bottom-header .bottom-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+      }
+      .bottom-header .bottom-2 > p {
+        text-align: start;
+      }
+
+      .qustions {
+        margin-top: 25px;
+      }
+
+      .qustion-header {
+        display: flex;
+        justify-content: space-between;
+        margin: 25px 0px 15px 0px;
+      }
+
+      img.checkBox {
+        height: 20px;
+      }
+
+      .qustion {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+      }
+
+      .optionList {
+        display: flex;
+        gap: 20px;
+        padding-left: 20px;
+        margin-top: 5px;
+      }
+      .optionList > div {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pepar-body">
+      <div class="pepar-header">
+        <div class="top-header">
+          <div class="top-header-1"><img src="/Nexus Logo png-01.png" class="school-logo" /></div>
+          <div class="top-header-2">
+            <h1>Knowledge High School</h1>
+            <p>Anand Rural Taluka, India</p>
+          </div>
+        </div>
+        <hr style="margin: 10px 0px" />
+        <div class="bottom-header">
+          <div class="bottom-1">
+            <p>STD: 1</p>
+            <p>DAY: Monday</p>
+          </div>
+          <div class="bottom-2">
+            <p>SUBJECT: English</p>
+            <p>DIV : First Class</p>
+          </div>
+          <div class="bottom-3">
+            <p>DATE: 20-03-2000</p>
+            <p>TIME: 11:30</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="qustions">
+        <div class="mcqs">
+          <div class="qustion-header">
+            <h3>&#10020; Selecet mcqs (&check;)</h3>
+            <div>(20)</div>
+          </div>
+          <!-- Start Qustion Loop For Mcq -->
+          <div>
+            <p class="qustion">1) What is the chemical formula for water?</p>
+            <div class="optionList">
+              <div class="option"><img src="/checkBox.png" class="checkBox" />H20</div>
+              <div class="option"><img src="/checkBox.png" class="checkBox" />H20</div>
+              <div class="option"><img src="/checkBox.png" class="checkBox" />H20</div>
+              <div class="option"><img src="/checkBox.png" class="checkBox" />H20</div>
+            </div>
+          </div>
+          <!-- End Qustion Loop For Mcq -->
+        </div>
+
+        <!-- Blanks -->
+        <div class="blanks">
+          <div class="qustion-header">
+            <h3>&#10020; Filing The Blanks</h3>
+            <div>(20)</div>
+          </div>
+          <!-- Start Qustion Loop For Blanks -->
+          <div>
+            <p class="qustion">1) What is the chemical formula for water?</p>
+          </div>
+          <div>
+            <p class="qustion">2) What is the chemical formula for water?</p>
+          </div>
+          <div>
+            <p class="qustion">3) What is the chemical formula for water?</p>
+          </div>
+          <div>
+            <p class="qustion">4) What is the chemical formula for water?</p>
+          </div>
+          <div>
+            <p class="qustion">5) What is the chemical formula for water?</p>
+          </div>
+          <!-- End Qustion Loop For Blanks -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
